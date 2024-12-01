@@ -1,0 +1,20 @@
+C:\Demos\Lab5\Lab5\obj\Debug\Lab5.csproj.AssemblyReference.cache
+C:\Demos\Lab5\Lab5\obj\Debug\Lab5.Properties.Resources.resources
+C:\Demos\Lab5\Lab5\obj\Debug\Lab5.csproj.GenerateResource.cache
+C:\Demos\Lab5\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+C:\Demos\Lab5\Lab5\bin\Debug\Lab5.exe.config
+C:\Demos\Lab5\Lab5\bin\Debug\Lab5.exe
+C:\Demos\Lab5\Lab5\bin\Debug\Lab5.pdb
+C:\Demos\Lab5\Lab5\obj\Debug\Lab5.Form1.resources
+C:\Demos\Lab5\Lab5\obj\Debug\Lab5.exe
+C:\Demos\Lab5\Lab5\obj\Debug\Lab5.pdb
+C:\Users\Cathy.Burchill\OneDrive - NBCC\1-Teaching\00-September Courses\0-Sept-2024-NBCC-PF4Y1K4N\C#\Labs\2024\Lab5\Lab5\Lab5\Lab5\bin\Debug\Lab5.exe.config
+C:\Users\Cathy.Burchill\OneDrive - NBCC\1-Teaching\00-September Courses\0-Sept-2024-NBCC-PF4Y1K4N\C#\Labs\2024\Lab5\Lab5\Lab5\Lab5\bin\Debug\Lab5.exe
+C:\Users\Cathy.Burchill\OneDrive - NBCC\1-Teaching\00-September Courses\0-Sept-2024-NBCC-PF4Y1K4N\C#\Labs\2024\Lab5\Lab5\Lab5\Lab5\bin\Debug\Lab5.pdb
+C:\Users\Cathy.Burchill\OneDrive - NBCC\1-Teaching\00-September Courses\0-Sept-2024-NBCC-PF4Y1K4N\C#\Labs\2024\Lab5\Lab5\Lab5\Lab5\obj\Debug\Lab5.csproj.AssemblyReference.cache
+C:\Users\Cathy.Burchill\OneDrive - NBCC\1-Teaching\00-September Courses\0-Sept-2024-NBCC-PF4Y1K4N\C#\Labs\2024\Lab5\Lab5\Lab5\Lab5\obj\Debug\Lab5.Form1.resources
+C:\Users\Cathy.Burchill\OneDrive - NBCC\1-Teaching\00-September Courses\0-Sept-2024-NBCC-PF4Y1K4N\C#\Labs\2024\Lab5\Lab5\Lab5\Lab5\obj\Debug\Lab5.Properties.Resources.resources
+C:\Users\Cathy.Burchill\OneDrive - NBCC\1-Teaching\00-September Courses\0-Sept-2024-NBCC-PF4Y1K4N\C#\Labs\2024\Lab5\Lab5\Lab5\Lab5\obj\Debug\Lab5.csproj.GenerateResource.cache
+C:\Users\Cathy.Burchill\OneDrive - NBCC\1-Teaching\00-September Courses\0-Sept-2024-NBCC-PF4Y1K4N\C#\Labs\2024\Lab5\Lab5\Lab5\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+C:\Users\Cathy.Burchill\OneDrive - NBCC\1-Teaching\00-September Courses\0-Sept-2024-NBCC-PF4Y1K4N\C#\Labs\2024\Lab5\Lab5\Lab5\Lab5\obj\Debug\Lab5.exe
+C:\Users\Cathy.Burchill\OneDrive - NBCC\1-Teaching\00-September Courses\0-Sept-2024-NBCC-PF4Y1K4N\C#\Labs\2024\Lab5\Lab5\Lab5\Lab5\obj\Debug\Lab5.pdb
