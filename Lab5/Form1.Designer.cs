@@ -66,7 +66,7 @@
             this.label1.Location = new System.Drawing.Point(9, 35);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 18);
+            this.label1.Size = new System.Drawing.Size(78, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "Dice 1:";
             // 
@@ -76,7 +76,7 @@
             this.label2.Location = new System.Drawing.Point(9, 77);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 18);
+            this.label2.Size = new System.Drawing.Size(81, 24);
             this.label2.TabIndex = 1;
             this.label2.Text = "Dice 2:";
             // 
@@ -130,7 +130,7 @@
             this.label7.Location = new System.Drawing.Point(9, 119);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(100, 18);
+            this.label7.Size = new System.Drawing.Size(125, 24);
             this.label7.TabIndex = 4;
             this.label7.Text = "Roll Name:";
             // 
@@ -179,11 +179,12 @@
             this.radOneRoll.AutoSize = true;
             this.radOneRoll.Location = new System.Drawing.Point(30, 29);
             this.radOneRoll.Name = "radOneRoll";
-            this.radOneRoll.Size = new System.Drawing.Size(97, 22);
+            this.radOneRoll.Size = new System.Drawing.Size(120, 28);
             this.radOneRoll.TabIndex = 10;
             this.radOneRoll.TabStop = true;
             this.radOneRoll.Text = "One Roll";
             this.radOneRoll.UseVisualStyleBackColor = true;
+            this.radOneRoll.CheckedChanged += new System.EventHandler(this.radOneRoll_CheckedChanged);
             // 
             // groupBox1
             // 
@@ -201,7 +202,7 @@
             this.radRollStats.AutoSize = true;
             this.radRollStats.Location = new System.Drawing.Point(588, 29);
             this.radRollStats.Name = "radRollStats";
-            this.radRollStats.Size = new System.Drawing.Size(115, 22);
+            this.radRollStats.Size = new System.Drawing.Size(142, 28);
             this.radRollStats.TabIndex = 11;
             this.radRollStats.TabStop = true;
             this.radRollStats.Text = "Mark Stats";
@@ -286,7 +287,7 @@
             // lstMarks
             // 
             this.lstMarks.FormattingEnabled = true;
-            this.lstMarks.ItemHeight = 18;
+            this.lstMarks.ItemHeight = 24;
             this.lstMarks.Location = new System.Drawing.Point(364, 19);
             this.lstMarks.Name = "lstMarks";
             this.lstMarks.Size = new System.Drawing.Size(105, 220);
@@ -298,7 +299,7 @@
             this.label6.Location = new System.Drawing.Point(14, 100);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(47, 18);
+            this.label6.Size = new System.Drawing.Size(56, 24);
             this.label6.TabIndex = 5;
             this.label6.Text = "Fail:";
             // 
@@ -308,7 +309,7 @@
             this.label5.Location = new System.Drawing.Point(14, 63);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 18);
+            this.label5.Size = new System.Drawing.Size(63, 24);
             this.label5.TabIndex = 4;
             this.label5.Text = "Pass:";
             // 
@@ -318,7 +319,7 @@
             this.label4.Location = new System.Drawing.Point(14, 137);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 18);
+            this.label4.Size = new System.Drawing.Size(99, 24);
             this.label4.TabIndex = 3;
             this.label4.Text = "Average:";
             // 
@@ -327,7 +328,7 @@
             this.chkSeed.AutoSize = true;
             this.chkSeed.Location = new System.Drawing.Point(214, 23);
             this.chkSeed.Name = "chkSeed";
-            this.chkSeed.Size = new System.Drawing.Size(118, 22);
+            this.chkSeed.Size = new System.Drawing.Size(144, 28);
             this.chkSeed.TabIndex = 2;
             this.chkSeed.Text = "Seed Value";
             this.chkSeed.UseVisualStyleBackColor = true;
@@ -338,7 +339,7 @@
             this.label3.Location = new System.Drawing.Point(14, 26);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 18);
+            this.label3.Size = new System.Drawing.Size(82, 24);
             this.label3.TabIndex = 1;
             this.label3.Text = "Marks:";
             // 
@@ -361,7 +362,7 @@
             0,
             0});
             this.nudNumber.Name = "nudNumber";
-            this.nudNumber.Size = new System.Drawing.Size(87, 26);
+            this.nudNumber.Size = new System.Drawing.Size(87, 30);
             this.nudNumber.TabIndex = 0;
             this.nudNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.nudNumber.Value = new decimal(new int[] {
@@ -372,7 +373,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(907, 356);
             this.Controls.Add(this.grpMarkStats);
