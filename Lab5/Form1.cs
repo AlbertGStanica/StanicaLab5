@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -147,39 +148,57 @@ namespace Lab5
         private void btnSwapNumbers_Click(object sender, EventArgs e)
         {
             //call ftn DataPresent twice sending string returning boolean
-
+            bool data1Present, data2Present;
+            string dataDice1, dataDice2;
+            dataDice1 = lblDice1.Text;
+            dataDice2 = lblDice2.Text;
+            data1Present = DataPresent(dataDice1);
+            data2Present = DataPresent(dataDice2);
+            
             //if data present in both labels, call SwapData sending both strings
-
+            if (data1Present && data2Present)
+            {
+                SwapData(ref dataDice1,ref dataDice2);
+                // Swap Data
+            }
+            else//if data not present in either label display error msg
+            {
+                MessageBox.Show("Roll the dice","Data Missing");
+            }
             //put data back into labels
-
-            //if data not present in either label display error msg
+            lblDice1.Text = dataDice1;
+            lblDice2.Text = dataDice2;
+            
         }
 
         /* Name: DataPresent
         * Sent: string
         * Return: bool (true if data, false if not) 
         * See if string is empty or not*/
-
+        private bool DataPresent(string input)
+        {
+            bool present;
+            switch(input){
+                case "":
+                    present = false;
+                    break;
+                default:
+                    present = true;
+                    break;
+            }
+            return present;
+        }
 
         /* Name: SwapData
         * Sent: 2 strings
         * Return: none 
         * Swaps the memory locations of two strings*/
-
-        private void btnGenerate_Click(object sender, EventArgs e)
+        private void SwapData(ref string input1, ref string input2)
         {
-            //declare variables and array
-
-            //check if seed value
-
-            //fill array using random number
-
-            //call CalcStats sending and returning data
-
-            //display data sent back in labels - average, pass and fail
-            // Format average always showing 2 decimal places 
-
-        } // end Generate click
+            string container = input1;
+            input1 = input2;
+            input2 = container;
+        }
 
         private void radOneRoll_CheckedChanged(object sender, EventArgs e)
         {
@@ -197,6 +216,42 @@ namespace Lab5
             }
         }
 
+        private void chkSeed_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkSeed.Checked)
+            {
+                DialogResult selection = MessageBox.Show("Are you sure you want to use a seed value?", "Confirm Seed Value", MessageBoxButtons.YesNo);
+                if (selection == DialogResult.No)
+                {
+                    chkSeed.Checked = false;
+                }
+            }
+        }
+        private void btnGenerate_Click(object sender, EventArgs e)
+        {
+            //declare variables and array
+            int[] valueofnud = new int[(int)nudNumber.Value];
+            //check if seed value
+            if (chkSeed.Checked)
+            {
+                rand = new Random(1000);
+            }
+            //fill array using random number
+            for(int i = 0; i < valueofnud.Length; i++)
+            {
+                valueofnud[i] = rand.Next(40,101);
+            }
+            //call CalcStats sending and returning data
+            int pass = 0, fail = 0;
+            double avg = CalcStats(valueofnud,ref pass, ref fail);
+            //display data sent back in labels - average, pass and fail
+            // Format average always showing 2 decimal places 
+            lblPass.Text = pass + string.Empty;
+            lblFail.Text = fail + string.Empty;
+            lblAverage.Text = avg.ToString("n2");
+
+        } // end Generate click
+
         /* Name: CalcStats
         * Sent: array and 2 integers
         * Return: average (double) 
@@ -204,6 +259,25 @@ namespace Lab5
         * Passmark is 60%
         * Calculate average and count how many marks pass and fail
         * The pass and fail values must also get returned for display*/
+        private double CalcStats(int[] array, ref int pass, ref int fail)
+        {
+            double passMark = 60.0;
+            int total = 0;
+            foreach(int i in array)
+            {
+                if (i >= passMark)
+                {
+                    pass++;
+                }
+                else
+                {
+                    fail++;
+                }
+                total += i;
+                lstMarks.Items.Add(i);
+            }
 
+            return total /(double)array.Length;
+        }
     }
 }

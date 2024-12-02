@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{BEEEC30B-C38B-4578-B02E-81642E4709C9}|Lab5\\Lab5.csproj|solutionrelative:lab5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEEEC30B-C38B-4578-B02E-81642E4709C9}|Lab5\\Lab5.csproj|C:\\Users\\Dolph\\Documents\\Programming Fundamentals\\lab5\\Repo\\StanicaLab5\\lab5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BEEEC30B-C38B-4578-B02E-81642E4709C9}|Lab5\\Lab5.csproj|solutionrelative:lab5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BEEEC30B-C38B-4578-B02E-81642E4709C9}|Lab5\\Lab5.csproj|C:\\Users\\Dolph\\Documents\\Programming Fundamentals\\lab5\\Repo\\StanicaLab5\\lab5\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BEEEC30B-C38B-4578-B02E-81642E4709C9}|Lab5\\Lab5.csproj|solutionrelative:lab5\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEEC30B-C38B-4578-B02E-81642E4709C9}|Lab5\\Lab5.csproj|C:\\Users\\Dolph\\Documents\\Programming Fundamentals\\lab5\\Repo\\StanicaLab5\\lab5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BEEEC30B-C38B-4578-B02E-81642E4709C9}|Lab5\\Lab5.csproj|solutionrelative:lab5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Dolph\\Documents\\Programming Fundamentals\\lab5\\Repo\\StanicaLab5\\Lab5\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Lab5\\Form1.Designer.cs",
@@ -45,14 +45,14 @@
               "RelativeDocumentMoniker": "Lab5\\Form1.cs",
               "ToolTip": "C:\\Users\\Dolph\\Documents\\Programming Fundamentals\\lab5\\Repo\\StanicaLab5\\Lab5\\Form1.cs",
               "RelativeToolTip": "Lab5\\Form1.cs",
-              "ViewState": "AgIAAKsAAAAAAAAAAAAUwMEAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAOUAAAAAAAAAAAA5wPoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T14:02:27.936Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Dolph\\Documents\\Programming Fundamentals\\lab5\\Repo\\StanicaLab5\\Lab5\\Form1.cs",
               "RelativeDocumentMoniker": "Lab5\\Form1.cs",
